@@ -1,0 +1,25 @@
+   body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;  
+      align-items: center;      
+      width: 50%;          /* 🔹 menos ancha */
+      height: 90vh;        /* 🔹 más alta */
+      background-color: #7fffd4; 
+      margin: 20px auto;   /* centra horizontalmente */
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .caja {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 16px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
